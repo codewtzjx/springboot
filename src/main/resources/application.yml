@@ -45,6 +45,6 @@ pagehelper:
     reasonable: true
 mybatis:
     mapper-locations: classpath:mapper/*.xml
-    # pojo生成包地址
-    type-aliases-package: com.spring.demo.springbootexample.mybatis.po
+    # 别名 pojo生成包地址
+    type-aliases-package: com.domain.po
 
