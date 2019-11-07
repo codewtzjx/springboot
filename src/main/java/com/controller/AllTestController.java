@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Copyright 2019 Oriental Standard All rights reserved.
  *
  * @Author: WuTieZhu
- * @ClassName ViewController
+ * @ClassName AllTestController
  * @CreateTime 2019/11/5 19:35
  * @Description: TODO
  */
