@@ -3,11 +3,11 @@ spring:
       # 如果存在多个数据源，监控的时候可以通过名字来区分开来
       name: mysql
       # 连接数据库的url
-      url: jdbc:mysql://192.168.0.35:3306/yzc_my_db?serverTimezone=UTC
+      url: jdbc:mysql://localhost:3306/dev?serverTimezone=UTC
       # 连接数据库的账号
       username: root
       #  连接数据库的密码
-      password: root123
+      password: root
       # 使用druid数据源
       type: com.alibaba.druid.pool.DruidDataSource
       # 扩展插件
@@ -37,6 +37,9 @@ spring:
       poolPreparedStatements: false
       # 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true
       maxOpenPreparedStatements: -1
+  #放行哪些包下的静态资源
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
 # pagehelper分页插件
 pagehelper:
     # 数据库的方言
@@ -47,4 +50,5 @@ mybatis:
     mapper-locations: classpath:mapper/*.xml
     # 别名 pojo生成包地址
     type-aliases-package: com.domain.po
+test.myUploadPath: /dev/test
 
