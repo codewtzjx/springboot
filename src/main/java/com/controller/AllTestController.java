@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Description: TODO
  */
 @Controller
-@RequestMapping("/testjx")
+@RequestMapping("/testjx1")
 public class AllTestController {
 
     @Autowired
