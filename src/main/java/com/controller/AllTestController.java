@@ -27,6 +27,7 @@ public class AllTestController {
     @ResponseBody
     public TbSysUser testSpringBoot() {
         TbSysUser tbSysUser = sysUserMapper.selectByPrimaryKey(3);
+        //woshishuo
         return tbSysUser;
     }
 }
