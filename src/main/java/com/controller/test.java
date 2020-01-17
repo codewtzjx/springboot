@@ -23,7 +23,7 @@ public class AllTestController {
     @Autowired
     private TbSysUserMapper sysUserMapper;
 
-    @RequestMapping("/吴铁柱贾香1")
+    @RequestMapping("/吴铁柱贾香22")
     @ResponseBody
     public TbSysUser testSpringBoot() {
         TbSysUser tbSysUser = sysUserMapper.selectByPrimaryKey(3);
