@@ -21,5 +21,5 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class AllTestController {
 
     @Autowired
-    private TbSysUserMapper sysUserMapper11;
+    private TbSysUserMapper sysUserMapper;
 }
