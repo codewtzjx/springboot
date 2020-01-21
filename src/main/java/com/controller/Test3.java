@@ -22,4 +22,9 @@ public class AllTestController {
 
     @Autowired
     private TbSysUserMapper sysUserMapper;
+
+    public void getStart() {
+        System.out.println("yes1");
+    }
+
 }
